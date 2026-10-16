@@ -21,6 +21,20 @@ body {
     overflow-x: hidden;
 }
 
+.rc-number {
+    position: absolute;
+    top: 1px;
+    right: 1px;
+    color: #f4c542;
+    font-size: 14px;
+    font-weight: bold;
+    background: #111111;
+    padding: 8px;
+    border: 1px solid #a57900;
+    border-radius: 5px;
+    z-index: 1000;
+}
+
 button,
 input {
     font: inherit;
